@@ -8,4 +8,4 @@ This is the customized version of ayvo wordpress theme.
 4. wocommerce minicart
 5. Woocommerce cart and favorite page
 
-## Note: This theme is not meant to be downloaded without purchase.  
+## Note: This theme is not meant to be downloaded without purchase. Without license key it won't work. 
