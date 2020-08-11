@@ -27,7 +27,7 @@ if (!('remove' in Element.prototype)) {
     }
   };
 }	
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2hvYnJhIiwiYSI6ImNqdTlqcm0yNTJncTQ0M3Ixam1kYnh6ajcifQ.TDD6gOW2gNNdg8058WuJ7Q';
+mapboxgl.accessToken = '';
 // This adds the map to your page
 var map = new mapboxgl.Map({
   // container id specified in the HTML
@@ -233,7 +233,7 @@ if (!('remove' in Element.prototype)) {
     }
   };
 }	
-mapboxgl.accessToken = 'pk.eyJ1Ijoic2hvYnJhIiwiYSI6ImNqdTlqcm0yNTJncTQ0M3Ixam1kYnh6ajcifQ.TDD6gOW2gNNdg8058WuJ7Q';
+mapboxgl.accessToken = '';
 // This adds the map to your page
 var map = new mapboxgl.Map({
   // container id specified in the HTML
@@ -570,9 +570,9 @@ function initMap() {
         });
       }
 </script>
- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNV-X0FxliYjZXLjG07mL4NL0-M9NqRqM&libraries=places&callback=initAutocomplete"
+ <script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initAutocomplete"
         async defer></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNV-X0FxliYjZXLjG07mL4NL0-M9NqRqM&libraries=places&callback=initMap" async defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initMap" async defer></script>
 <?php }
 ?>
 <?php wp_footer(); ?>
