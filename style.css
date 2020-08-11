@@ -1,0 +1,46 @@
+/*
+Theme Name:     Ayvo
+Theme URI:      http://ayvo.kutethemes.net/
+Author:         Kutethemes
+Text Domain:    ayvo
+Author URI:     http://kutethemes.com/
+Description:    Ayvo Shop is a simple but modern responsive WordPress theme that oozes high-street sophistication. Its sharp lines and flat design style has been designed to be pixel perfect. Simply load your photography and you can have an online shop to matches the likes of Prada, Gucci and Yves St Laurent.
+Version:        1.0.6
+License:        GNU General Public License v1 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Tags:           two-columns, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, translation-ready
+Market:         Envato
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/*----- GUTENBERG -----*/
+.wp-block-pullquote {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.has-huge-font-size,
+.has-large-font-size,
+.has-medium-font-size,
+.has-small-font-size  {
+    line-height: 1.8;
+}
+@media only screen and (min-width: 768px) {
+    .alignfull {
+        margin-left: calc(50% - 50vw);
+        margin-right: calc(50% - 50vw);
+        width: auto;
+        max-width: 1000%;
+    }
+    .alignwide {
+        margin-left: calc(25% - 25vw);
+        margin-right: calc(25% - 25vw);
+        width: auto;
+        max-width: 1000%;
+    }
+    .alignwide img,
+    .alignfull img {
+        display: block;
+        margin: 0 auto;
+    }
+}
